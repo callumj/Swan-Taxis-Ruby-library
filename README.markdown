@@ -13,6 +13,10 @@ This repo also includes the location data SwanTaxis used to send streets, street
 
 The Streets.txt file provides the format dbkey,STREETID,streetname,STREETTYPEID,suburbname,SUBURBID where you will need STREETID, STREETTYPEID and SUBURBID when constructing a SwanTaxis::Address object for setting the to\_address and from\_address in a SwanTaxis::Booking object.
 
+## Requirements ##
+
+Rest-client (https://github.com/archiloque/rest-client) or just run bundle
+
 ## Usage ##
 
 Here is a way to register a new user on the SwanTaxi web service. Please use real user data, it would be unfair to prank the system. Also the system currently on accepts alphabet characters in the username field.
