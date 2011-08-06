@@ -1,0 +1,453 @@
+"Id","Name","PositionId"
+1,"Alexander Heights",1
+2,"Alfred Cove",2
+3,"Alkimos",3
+4,"Anketell",4
+5,"Applecross",5
+6,"Ardross",6
+7,"Armadale",7
+8,"Ascot",8
+9,"Ashby",9
+10,"Ashendon",10
+11,"Ashfield",11
+12,"Attadale",12
+13,"Atwell",13
+14,"Aubin Grove",14
+15,"Aveley",15
+16,"Avon Valley National Park",16
+17,"Bailup",17
+18,"Bakers Hill",18
+19,"Balcatta",19
+20,"Baldivis",20
+21,"Balga",21
+22,"Ballajura",22
+23,"Banjup",23
+24,"Banksia Grove",24
+25,"Baskerville",25
+26,"Bassendean",26
+27,"Bateman",27
+28,"Bayswater",28
+29,"Beaconsfield",29
+30,"Beckenham",30
+31,"Bedford",31
+32,"Bedfordale",32
+33,"Beechboro",33
+34,"Beechina",34
+35,"Beeliar",35
+36,"Beldon",36
+37,"Belhus",37
+38,"Bellevue",38
+39,"Belmont",39
+40,"Bentley",40
+41,"Bertram",41
+42,"Bibra Lake",42
+43,"Bickley",43
+44,"Bicton",44
+45,"Booragoon",45
+46,"Boya",46
+47,"Brentwood",47
+48,"Brigadoon",48
+49,"Brookdale",49
+50,"Buckland",50
+51,"Bull Creek",51
+52,"Bullsbrook",52
+53,"Burlong",53
+54,"Burns",54
+55,"Burns Beach",55
+56,"Burswood",56
+57,"Butler",57
+58,"Byford",58
+59,"Calista",59
+60,"Camillo",60
+61,"Canning Mills",61
+62,"Canning Vale",62
+63,"Cannington",63
+64,"Carabooda",64
+65,"Cardup",65
+66,"Carine",66
+67,"Carlisle",67
+68,"Carmel",68
+69,"Carramar",69
+70,"Casuarina",70
+71,"Caversham",71
+72,"Champion Lakes",72
+73,"Chidlow",73
+74,"Chittering",74
+75,"Churchlands",75
+76,"City Beach",76
+77,"Clackline",77
+78,"Claremont",78
+79,"Clarkson",79
+80,"Cloverdale",80
+81,"Cockburn Central",81
+82,"Como",82
+83,"Connolly",83
+84,"Coogee",84
+85,"Coolbellup",85
+86,"Coolbinia",86
+87,"Cooloongup",87
+88,"Coondle",88
+89,"Copley",89
+90,"Cottesloe",90
+91,"Craigie",91
+92,"Crawley",92
+93,"Cullacabardee",93
+94,"Currambine",94
+95,"Daglish",95
+96,"Dale",96
+97,"Daliak",97
+98,"Dalkeith",98
+99,"Darch",99
+100,"Darling Downs",100
+101,"Darlington",101
+102,"Dianella",102
+103,"Doubleview",103
+104,"Dumbarton",104
+105,"Duncraig",105
+106,"East Cannington",106
+107,"East Fremantle",107
+108,"East Perth",108
+109,"East Rockingham",109
+110,"East Victoria Park",110
+111,"Eden Hill",111
+112,"Edgewater",112
+113,"Eglinton",113
+114,"Ellenbrook",114
+115,"Embleton",115
+116,"Ferndale",116
+117,"Flint",117
+118,"Floreat",118
+119,"Flynn",119
+120,"Forrestdale",120
+121,"Forrestfield",121
+122,"Fremantle",122
+123,"Garden Island",123
+124,"Gidgegannup",124
+125,"Girrawheen",125
+126,"Glen Forrest",126
+127,"Glendalough",127
+128,"Gnangara",128
+129,"Golden Bay",129
+130,"Gooseberry Hill",130
+131,"Gosnells",131
+132,"Greenmount",132
+133,"Greenwood",133
+134,"Guildford",134
+135,"Gwelup",135
+136,"Hacketts Gully",136
+137,"Hamersley",137
+138,"Hamilton Hill",138
+139,"Hammond Park",139
+140,"Harrisdale",140
+141,"Haynes",141
+142,"Hazelmere",142
+143,"Heathridge",143
+144,"Helena Valley",144
+145,"Henderson",145
+146,"Henley Brook",146
+147,"Herdsman",147
+148,"Herne Hill",148
+149,"High Wycombe",149
+150,"Highgate",150
+151,"Hilbert",151
+152,"Hillarys",152
+153,"Hillman",153
+154,"Hilton",154
+155,"Hocking",155
+156,"Hoddys Well",156
+157,"Hope Valley",157
+158,"Hopeland",158
+159,"Hovea",159
+160,"Huntingdale",160
+161,"Illawarra",161
+162,"Iluka",162
+163,"Inglewood",163
+164,"Inkpen",164
+165,"Innaloo",165
+166,"Irishtown",166
+167,"Jandabup",167
+168,"Jandakot",168
+169,"Jane Brook",169
+170,"Jarrahdale",170
+171,"Jelcobine",171
+172,"Jennacubbine",172
+173,"Jennapullin",173
+174,"Jindalee",174
+175,"Jolimont",175
+176,"Joondalup",176
+177,"Joondanna",177
+178,"Julimar",178
+179,"Kalamunda",179
+180,"Kallaroo",180
+181,"Karawara",181
+182,"Kardinya",182
+183,"Karnup",183
+184,"Karragullen",184
+185,"Karrakatta",185
+186,"Karrakup",186
+187,"Karrinyup",187
+188,"Katrine",188
+189,"Kelmscott",189
+190,"Kensington",190
+191,"Kenwick",191
+192,"Kewdale",192
+193,"Keysbrook",193
+194,"Kiara",194
+195,"Kings Park",195
+196,"Kingsley",196
+197,"Kinross",197
+198,"Koondoola",198
+199,"Koongamia",199
+200,"Kwinana Beach",200
+201,"Kwinana Town Centre",201
+202,"Lakelands",202
+203,"Landsdale",203
+204,"Langford",204
+205,"Lathlain",205
+206,"Leda",206
+207,"Leederville",207
+208,"Leeming",208
+209,"Lesley",209
+210,"Lesmurdie",210
+211,"Lexia",211
+212,"Lockridge",212
+213,"Lower Chittering",213
+214,"Lynwood",214
+215,"Maddington",215
+216,"Madeley",216
+217,"Madora",217
+218,"Madora Bay",218
+219,"Mahogany Creek",219
+220,"Maida Vale",220
+221,"Malabaine",221
+222,"Malaga",222
+223,"Mandogalup",223
+224,"Manning",224
+225,"Marangaroo",225
+226,"Mardella",226
+227,"Mariginiup",227
+228,"Marmion",228
+229,"Martin",229
+230,"Maylands",230
+231,"Meadow Springs",231
+232,"Medina",232
+233,"Melaleuca",233
+234,"Melville",234
+235,"Menora",235
+236,"Merriwa",236
+237,"Middle Swan",237
+238,"Midland",238
+239,"Midvale",239
+240,"Millendon",240
+241,"Mindarie",241
+242,"Mirrabooka",242
+243,"Mokine",243
+244,"Moondyne",244
+245,"Morangup",245
+246,"Morley",246
+247,"Mosman Park",247
+248,"Mount Claremont",248
+249,"Mount Cooke",249
+250,"Mount Hawthorn",250
+251,"Mount Helena",251
+252,"Mount Lawley",252
+253,"Mount Nasura",253
+254,"Mount Observation",254
+255,"Mount Pleasant",255
+256,"Mount Richon",256
+257,"Muchea",257
+258,"Mullaloo",258
+259,"Muluckine",259
+260,"Mundaring",260
+261,"Mundijong",261
+262,"Munster",262
+263,"Murdoch",263
+264,"Muresk",264
+265,"Myara",265
+266,"Myaree",266
+267,"Nambeelup",267
+268,"Naval Base",268
+269,"Nedlands",269
+270,"Neerabup",270
+271,"Nollamara",271
+272,"Noranda",272
+273,"North Beach",273
+274,"North Coogee",274
+275,"North Fremantle",275
+276,"North Lake",276
+277,"North Perth",277
+278,"Northam",278
+279,"Northbridge",279
+280,"Nowergup",280
+281,"Nunile",281
+282,"Oakford",282
+283,"Ocean Reef",283
+284,"O connor",284
+285,"Oldbury",285
+286,"Orange Grove",286
+287,"Orelia",287
+288,"Osborne Park",288
+289,"Padbury",289
+290,"Palmyra",290
+291,"Parkerville",291
+292,"Parklands",292
+293,"Parkwood",293
+294,"Parmelia",294
+295,"Paulls Valley",295
+296,"Pearsall",296
+297,"Peel Estate",297
+298,"Peppermint Grove",298
+299,"Peron",299
+300,"Perth",300
+301,"Perth Airport",301
+302,"Piara Waters",302
+303,"Pickering Brook",303
+304,"Piesse Brook",304
+305,"Pinjar",305
+306,"Port Kennedy",306
+307,"Postans",307
+308,"Queens Park",308
+309,"Quinns Rocks",309
+310,"Red Hill",310
+311,"Redcliffe",311
+312,"Reservoir",312
+313,"Ridgewood",313
+314,"Riverton",314
+315,"Rivervale",315
+316,"Rockingham",316
+317,"Roleystone",317
+318,"Rossmoyne",318
+319,"Safety Bay",319
+320,"Salter Point",320
+321,"Samson",321
+322,"San Remo",322
+323,"Sawyers Valley",323
+324,"Scarborough",324
+325,"Seabrook",325
+326,"Secret Harbour",326
+327,"Serpentine",327
+328,"Seville Grove",328
+329,"Shelley",329
+330,"Shenton Park",330
+331,"Shoalwater",331
+332,"Silver Sands",332
+333,"Sinagra",333
+334,"Singleton",334
+335,"Sorrento",335
+336,"South Fremantle",336
+337,"South Guildford",337
+338,"South Lake",338
+339,"South Perth",339
+340,"Southern River",340
+341,"Spearwood",341
+342,"Spencers Brook",342
+343,"St James",343
+344,"St Ronans",344
+345,"Stake Hill",345
+346,"Stirling",346
+347,"Stoneville",347
+348,"Stratton",348
+349,"Subiaco",349
+350,"Success",350
+351,"Swan View",351
+352,"Swanbourne",352
+353,"Talbot",353
+354,"Talbot West",354
+355,"Tamala Park",355
+356,"Tapping",356
+357,"The Lakes",357
+358,"The Spectacles",358
+359,"The Vines",359
+360,"Thornlie",360
+361,"Toodyay",361
+362,"Trigg",362
+363,"Tuart Hill",363
+364,"Two Rocks",364
+365,"Upper Swan",365
+366,"Victoria Park",366
+367,"Viveash",367
+368,"Waikiki",368
+369,"Walliston",369
+370,"Walyunga National Park",370
+371,"Wandi",371
+372,"Wangara",372
+373,"Wanneroo",373
+374,"Warnbro",374
+375,"Warwick",375
+376,"Waterford",376
+377,"Watermans Bay",377
+378,"Wattle Grove",378
+379,"Wattleup",379
+380,"Wellard",380
+381,"Welshpool",381
+382,"Wembley",382
+383,"Wembley Downs",383
+384,"West Leederville",384
+385,"West Perth",385
+386,"West Swan",386
+387,"West Toodyay",387
+388,"Westdale",388
+389,"Westfield",389
+390,"Westminster",390
+391,"Whitby",391
+392,"White Gum Valley",392
+393,"Whiteman",393
+394,"Wilberforce",394
+395,"Willagee",395
+396,"Willetton",396
+397,"Wilson",397
+398,"Winthrop",398
+399,"Wongamine",399
+400,"Woodbridge",400
+401,"Woodlands",401
+402,"Woodvale",402
+403,"Wooroloo",403
+404,"Woottating",404
+405,"Wundowie",405
+406,"Wungong",406
+407,"Yanchep",407
+408,"Yangebup",408
+409,"Yokine",409
+410,"Banksiadale",32144
+411,"Bannister",32145
+412,"Barragup",32146
+413,"Birchmont",32147
+414,"Blythewood",32148
+415,"Bouvard",32149
+416,"Carcoola Primary School",32150
+417,"Coodanup",32151
+418,"Dawesville",32152
+419,"Dudley Park",32153
+420,"Dwellingup",32154
+421,"Erskine",32155
+422,"Fairbridge",32156
+423,"Falcon",32157
+424,"Furnissdale",32158
+425,"Greenfields",32159
+426,"Halls Head",32160
+427,"Holyoake",32161
+428,"Inglehope",32162
+429,"Mandurah",32163
+430,"Marrinup",32164
+431,"Meelon",32165
+432,"Mount Wells",32166
+433,"Nirimba",32167
+434,"North Bannister",32168
+435,"North Dandalup",32169
+436,"North Yunderup",32170
+437,"Oakley",32171
+438,"Pinjarra",32172
+439,"Point Grey",32173
+440,"Ravenswood",32174
+441,"Solus",32175
+442,"South Yunderup",32176
+443,"Springs",32177
+444,"Teesdale",32178
+445,"Wandering",32179
+446,"Wannanup",32180
+447,"West Pinjarra",32181
+448,"Whittaker",32182
+449,"Yunderup",32183
+450,"Yunderup Island",32184
+451,"As Directed",34377
+452,"Hollywood",34378
