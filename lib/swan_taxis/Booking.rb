@@ -1,6 +1,6 @@
-load "#{File.dirname(__FILE__)}/Base.rb"
-load "#{File.dirname(__FILE__)}/User.rb"
-load "#{File.dirname(__FILE__)}/Address.rb"
+load "#{File.dirname(__FILE__)}/base.rb"
+load "#{File.dirname(__FILE__)}/user.rb"
+load "#{File.dirname(__FILE__)}/address.rb"
 
 require 'json'
 
@@ -83,7 +83,7 @@ module SwanTaxis
     end
     
     def status
-      resp = Base.perform_request(:endpoint => "GetBookingStatus", :booking_svc => true, :params => {:BookingId => self.id})
+      resp = self.class.perform_request(:endpoint => "GetBookingStatus", :booking_svc => true, :params => {:BookingId => self.id})
       
       if (resp != nil)
         resp_json = JSON.parse(resp)
@@ -97,7 +97,7 @@ module SwanTaxis
     end
     
     def cancel_booking
-      resp = Base.perform_request(:endpoint => "CancelBooking", :booking_svc => true, :params => {:bookingId => self.id})
+      resp = self.class.perform_request(:endpoint => "CancelBooking", :booking_svc => true, :params => {:bookingId => self.id})
       
       if (resp != nil)
 
@@ -112,7 +112,7 @@ module SwanTaxis
     end
     
     def location
-      resp = Base.perform_request(:endpoint => "GetTaxiPositionForBooking", :booking_svc => true, :params => {:BookingId => self.id})
+      resp = self.class.perform_request(:endpoint => "GetTaxiPositionForBooking", :booking_svc => true, :params => {:BookingId => self.id})
       
       if (resp != nil)
         resp_json = JSON.parse(resp)
@@ -128,7 +128,7 @@ module SwanTaxis
     def charge_estimate
       self.normalise!
       booking_req = {:booking => self.fields}  
-      resp = Base.perform_request(:endpoint => "ChargeEstimate", :booking_svc => true, :params => booking_req)
+      resp = self.class.perform_request(:endpoint => "ChargeEstimate", :booking_svc => true, :params => booking_req)
       
       if (resp != nil)
         resp_json = JSON.parse(resp)

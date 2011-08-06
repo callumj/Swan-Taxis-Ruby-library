@@ -1,4 +1,4 @@
-load "#{File.dirname(__FILE__)}/Base.rb"
+load "#{File.dirname(__FILE__)}/base.rb"
 
 require 'json'
 
@@ -32,7 +32,7 @@ module SwanTaxis
     
     
     #Sadly this has to be sent in plain text
-    def User.login(username, password)
+    def self.login(username, password)
       user_build = User.new
       user_build.coerce :endpoint => "Login", :booking_svc => false, :params => {:user => {:Password => password, :UserName => username}}
       
@@ -40,8 +40,8 @@ module SwanTaxis
     end
     
     #Once again plain text
-    def User.register(args = {})
-      resp = Base.perform_request(:endpoint => "RegisterUser", :booking_svc => false,
+    def self.register(args = {})
+      resp = self.class.perform_request(:endpoint => "RegisterUser", :booking_svc => false,
         :params => {
             :user => {
               :Password => args[:password], 

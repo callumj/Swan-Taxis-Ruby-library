@@ -26,7 +26,7 @@ module SwanTaxis
     end
     
     #Generic Web service accessor
-    def Base.perform_request(args = {})
+    def self.perform_request(args = {})
       return nil unless args[:endpoint] != nil && args[:params] != nil
       
       path = "SwanTaxisService.svc"
