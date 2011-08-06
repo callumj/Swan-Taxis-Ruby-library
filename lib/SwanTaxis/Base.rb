@@ -13,11 +13,9 @@ module SwanTaxis
     #Pass arguments to the web service and then coerce them back into the class data
     def coerce(args = {})      
       return nil unless args[:endpoint] != nil && args[:params] != nil
-      
-      puts args[:params].to_json
-      
+            
       response = Base.perform_request(args)
-      puts response
+
       if (response != nil)
         resp_json = JSON.parse(response)
         resp_json = resp_json.inject({}){|target,(k,v)| target[k.to_sym] = v; target}

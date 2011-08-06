@@ -100,7 +100,7 @@ module SwanTaxis
       resp = Base.perform_request(:endpoint => "CancelBooking", :booking_svc => true, :params => {:bookingId => self.id})
       
       if (resp != nil)
-        puts resp
+
         resp_json = JSON.parse(resp)
         if (resp_json != nil)
           resp_json = resp_json[0] if resp_json.class == Array
