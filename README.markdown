@@ -13,9 +13,27 @@ This repo also includes the location data SwanTaxis used to send streets, street
 
 The Streets.txt file provides the format dbkey,STREETID,streetname,STREETTYPEID,suburbname,SUBURBID where you will need STREETID, STREETTYPEID and SUBURBID when constructing a SwanTaxis::Address object for setting the to\_address and from\_address in a SwanTaxis::Booking object.
 
+### Using the Address extension for searching the embedded db ###
+
+This repo now ships with a sqlite db that contains the Streets data, this now allows an extension to the SwanTaxis::Address class to query this database to make looking up street data easier. As a design decision these extensions are in a separate class called address_ext.rb to give developers the choice of using their own db implementation.
+
+The address extension class then exposes three helpful methods.
+
+	load 'lib/swan_taxis/address_ext.rb'
+	
+	# Need to specify where our database lives (this enables the Sequel + SQLite engine)
+	SwanTaxis::Address.sql_db= "ref_data/embedded.db"
+	
+	home = SwanTaxis::Address.one(:street_name => "Taworri", :street_type => "Way", :suburb_name => "City Beach")
+	home.house_number = 1 
+
 ## Requirements ##
 
-Rest-client (https://github.com/archiloque/rest-client) or just run bundle
+Rest-client (https://github.com/archiloque/rest-client)
+Sequel
+Sqlite3
+
+(just run _bundle_, as this is declared in the Gemfile)
 
 ## Usage ##
 
@@ -27,38 +45,38 @@ This will return a user object, if you need to login later.
 
 	user =  SwanTaxis::User.login("mikeperth", "password")
 	
-Now you can make a booking. In this case I am using 1 Adina Road, City Beach as my pickup address and using 20 St Georges Terrace, Perth as my dropoff due tomorrow night.
-
-	f = SwanTaxis::Address.new
-	f.house_number = 1
-	f.street_id = 120
-	f.street_type_id = 87
-	f.suburb_id = 76
+Now you can make a booking. In this case I am using 1 Adina Road, City Beach as my pickup address and using 20 St Georges Terrace, Perth as my dropoff for tomorrow night.
 	
-	t = SwanTaxis::Address.new
+	load 'lib/swan_taxis/booking.rb'
+	load 'lib/swan_taxis/address_ext.rb' # We wish to enable the ability to do lookup street data easily
+	
+	SwanTaxis::Address.sql_db= "ref_data/embedded.db" # Use the provided DB
+	
+	f = SwanTaxis::Address.one(:street_name => "Adina", :street_type => "Rd", :suburb_name => "City Beach")
+	f.house_number = 1
+	
+	t = SwanTaxis::Address.one(:street_name => "St Georges", :street_type => "Tce", :suburb_name => "Perth")
 	t.house_number = 20
-	t.street_id = 14567
-	t.street_type_id = 109
-	t.suburb_id = 300
 	
 	b = SwanTaxis::Booking.new
 	b.to_address = t
 	b.from_address = f
 	b.date = (Time.now + (60 * 60 * 24))
 	b.number_people = 4
+	
 	b.user = user
 	
-	#How much will it cost?
+	# How much will it cost?
 	b.charge_estimate
 	
-	#Ok book
+	# Ok book
 	b.book
 	
-	#How's it going?
+	# How's it going?
 	b.status
 	b.location
 	
-	#My bad
+	# My bad
 	b.cancel_booking
 	
 ## License ##
