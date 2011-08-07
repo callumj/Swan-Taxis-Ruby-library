@@ -60,3 +60,7 @@ Now you can make a booking. In this case I am using 1 Adina Road, City Beach as 
 	
 	#My bad
 	b.cancel_booking
+	
+## License ##
+
+This code is licensed through the MIT license, so please do what ever you want with the source. If you do make any modifications it would be great if you could make this public on somewhere like Github for other people to benefit. Open source software has helped me a lot and it would be unfair of me to strap some prohibitive license on such basic functionality.
