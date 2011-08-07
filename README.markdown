@@ -48,7 +48,7 @@ This will return a user object, if you need to login later.
 Now you can make a booking. In this case I am using 1 Adina Road, City Beach as my pickup address and using 20 St Georges Terrace, Perth as my dropoff for tomorrow night.
 	
 	load 'lib/swan_taxis/booking.rb'
-	load 'lib/swan_taxis/address_ext.rb' # We wish to enable the ability to do lookup street data easily
+	load 'lib/swan_taxis/address_ext.rb' # We wish to enable the ability to lookup street data easily
 	
 	SwanTaxis::Address.sql_db= "ref_data/embedded.db" # Use the provided DB
 	
