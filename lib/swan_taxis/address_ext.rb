@@ -30,11 +30,23 @@ module SwanTaxis
 		def self.all(args = {})
 			return if @@SQL_INSTANCE == nil
 			
+			self.array_from_dataset(self.streets_dataset)
+		end
+		
+		def self.array_from_dataset(dataset)
+			return if dataset == nil || @@SQL_INSTANCE == nil
+			
 			results = []
-			find = @@SQL_INSTANCE[:streets].where(args).all
+			find = dataset.all
 			find.each {|record| results << self.from_db_hash(record) }
 			
 			results
+		end
+		
+		def self.streets_dataset
+			return if @@SQL_INSTANCE == nil
+			
+			@@SQL_INSTANCE[:streets]
 		end
 		
 		#Provide handy way to cast DB into class
