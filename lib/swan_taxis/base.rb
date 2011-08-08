@@ -32,7 +32,7 @@ module SwanTaxis
       path = "SwanTaxisService.svc"
       path = "SwanTaxisBookingService.svc" if args[:booking_svc]
       
-      RestClient.post "#{@@URI}/#{path}/#{args[:endpoint]}", args[:params].to_json, :content_type => :json, :accept => :json
+      RestClient.post "#{@@URI}/#{path}/#{args[:endpoint]}", args[:params].to_json, :content_type => :json, :accept => :json, :user_agent => "Swan Taxis Ruby API client - https://github.com/callumj/Swan-Taxis-Ruby-library"
     end
   end
 end
